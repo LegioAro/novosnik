@@ -1,0 +1,28 @@
+.live {
+    margin-bottom: 30px;
+    &__wrapper {
+        background: #323232;
+        border-radius: 15px;
+        padding: 18px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text-block {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    &__text-color {
+        font-size: 20px;
+        color: #ff0202;
+        margin-right: 20px;
+        display: inline;
+    }
+
+    &__text {
+        color: #fff;
+        display: inline;
+    }
+}

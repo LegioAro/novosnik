@@ -1,0 +1,36 @@
+.event {
+    background: linear-gradient(90deg, #6bdaee 0%, #0074e1 95.91%);
+    padding: 30px 0 85px;
+    &__wrapper {
+    }
+
+    &__items {
+        margin: 0 -15px 0;
+    }
+
+    &__arrow {
+    }
+    .title {
+        color: #ffffff;
+    }
+    .new-item {
+        margin: 20px 15px;
+    }
+    .rubric {
+        &__title {
+            background-color: #0fe7dc;
+        }
+    }
+}
+
+
+@media (max-width: 700px) {
+    .event {
+        &__items {
+            margin: 0px -10px 0;
+        }
+        .new-item {
+            margin: 20px 10px;
+        }
+    }
+}
